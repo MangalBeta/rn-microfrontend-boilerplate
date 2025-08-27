@@ -75,7 +75,7 @@ A comprehensive React Native starter kit featuring microfrontend architecture, a
 1. **Clone the repository**
    ```bash
    git clone <repository-url>
-   cd ReactNativeStarterKit
+   cd rn-microfrontend-boilerplate
    ```
 
 2. **Install dependencies**
