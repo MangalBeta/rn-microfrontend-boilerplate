@@ -82,3 +82,5 @@ yarn-error.log
 # If you have multiple flavors, add those paths too
 **/google-services.json
 **/GoogleService-Info.plist
+android/app/google-services.json
+ios/ReactNativeStarterMangal/GoogleService-Info.plist
