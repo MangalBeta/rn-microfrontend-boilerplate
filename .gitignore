@@ -73,3 +73,12 @@ yarn-error.log
 !.yarn/releases
 !.yarn/sdks
 !.yarn/versions
+
+
+# Environment files
+.env
+.env.* 
+
+# If you have multiple flavors, add those paths too
+**/google-services.json
+**/GoogleService-Info.plist

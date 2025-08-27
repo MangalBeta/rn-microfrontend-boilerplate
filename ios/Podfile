@@ -16,6 +16,12 @@ end
 
 target 'ReactNativeStarterMangal' do
   config = use_native_modules!
+pod 'GoogleUtilities', :modular_headers => true
+pod 'FirebaseCore', :modular_headers => true
+pod 'FirebaseMessaging', :modular_headers => true
+pod 'FirebaseAppCheckInterop', :modular_headers => true
+pod 'FirebaseCoreExtension', :modular_headers => true
+pod 'RecaptchaInterop', :modular_headers => true
 
   use_react_native!(
     :path => config[:reactNativePath],
